@@ -2,6 +2,13 @@ body {
     font-family: "Courier New", monospace;
     margin: auto;
     padding: 20px;
+    background-color: #F1E9D2;
+    color: #4a2e1a;
+}
+
+.TitleSection {
+    margin-block: 0 1em;
+    margin-inline: 1.5em 0;
 }
 
 .Name {
@@ -12,24 +19,36 @@ body {
     margin-block: 0;
 }
 
+.BodySection {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid;
+}
+
 .Header {
-    margin-block: 1em 0;
+    min-width: 200px;
+    margin-block: .5em;
+    border-right: 1px solid;
+    flex: 0 0 200px;
+    text-align: center;
 }
 
 .ItemCard {
-    margin-block: .5em 1em;
+    margin-block: 1em 1em;
+    margin-inline: 1em 0;
 }
 
 .Who {
-    margin-block: 0;
+    font-size: 1.3em;
+    margin-block: 0 .1em;
 }
 
 .What {
-    margin-block: 0;
+    margin-block: 0 .2em;
 }
 
 .WhenAndWhere {
-    margin-block: .5em 0;
+    margin-block: 0;
 }
 
 .Description {
