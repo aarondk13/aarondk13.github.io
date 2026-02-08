@@ -1,0 +1,45 @@
+body {
+    font-family: "Courier New", monospace;
+    margin: auto;
+    padding: 20px;
+}
+
+.Name {
+    margin-block: 0;
+}
+
+.Job {
+    margin-block: 0;
+}
+
+.Header {
+    margin-block: 1em 0;
+}
+
+.ItemCard {
+    margin-block: .5em 1em;
+}
+
+.Who {
+    margin-block: 0;
+}
+
+.What {
+    margin-block: 0;
+}
+
+.WhenAndWhere {
+    margin-block: .5em 0;
+}
+
+.Description {
+    margin-block: .5em;
+}
+
+.RelatedCourses {
+    margin-block: 1em .5em;
+}
+
+.RelatedCoursesList {
+    margin-block: .5em 0;
+}
