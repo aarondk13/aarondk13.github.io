@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 23 252 49" width="252" height="49">
+	<style>
+		.s0 { 
+			fill: #fff0dc;
+		} 
+	</style>
+	<filter id="shadow">
+		<feDropShadow dx="2" dy=".2" stdDeviation=".2"/>
+		<feDropShadow dx="-2" dy=".2" stdDeviation=".2"/>
+	</filter>
+	<g id="Layer 1">
+		<path id="Shape 1" fill-rule="evenodd" filter="url(#shadow)" class="s0" d="m0 72c30 0 6.5-46.04 40.5-46.04 30 0 144.25 0 174.25 0 28.91 0 7.25 46.04 37.25 46.04"/>
+	</g>
+</svg>

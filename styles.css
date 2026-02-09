@@ -1,15 +1,48 @@
 body {
     font-family: "Courier New", monospace;
     margin: auto;
-    padding: 15px;
-    background-color: #FEF1DC;
+    background-color: black;
+}
+
+.FolderTabs {
+    margin-block: 5px 0;
+}
+
+.Folder {
+    background-color: #fff0dc;
+    padding-block: 25px;
+}
+
+.Tab {
+    position: relative;
+    display: inline-block;
+    background-image: url("/assets/Tab.svg");
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: -1px;
+}
+
+.TopTab {
+    z-index: 3;
+    font-weight: 900;
+}
+
+.ResumeTab {
+    margin-inline: 40px 0;
+}
+
+.MusicTab {
+    margin-left: -40px;
 }
 
 .Paper {
     background-image: url("/assets/paperbg.jpg");
     background-size: cover;
     padding-block: 1em;
-    box-shadow:  3px 3px 10px black;
+    box-shadow:  3px 3px 5px black;
+    margin: 0 20px;
 }
 
 .TitleSection {
