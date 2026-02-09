@@ -1,9 +1,15 @@
 body {
     font-family: "Courier New", monospace;
     margin: auto;
-    padding: 20px;
-    background-color: #F1E9D2;
-    color: #4a2e1a;
+    padding: 15px;
+    background-color: #FEF1DC;
+}
+
+.Paper {
+    background-image: url("/assets/paperbg.jpg");
+    background-size: cover;
+    padding-block: 1em;
+    box-shadow:  3px 3px 10px black;
 }
 
 .TitleSection {
@@ -23,6 +29,7 @@ body {
     display: flex;
     flex-direction: row;
     border-top: 1px solid;
+    margin-inline: 1em;
 }
 
 .Header {
