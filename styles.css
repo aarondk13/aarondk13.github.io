@@ -122,3 +122,16 @@ body {
     height: 600px;
     border: 2px dashed black;
 }
+
+.ContactHeader {
+    line-height: 36px;
+}
+
+.IconLink {
+    text-decoration: none;
+}
+
+.Icon {
+    padding: 0 4px;
+    margin: 2px;
+}
