@@ -2,6 +2,7 @@ body {
     font-family: "Courier New", monospace;
     margin: auto;
     background-color: black;
+    max-width: 1200px;
 }
 
 .FolderTabs {
@@ -11,6 +12,7 @@ body {
 .Folder {
     background-color: #fff0dc;
     padding-block: 25px;
+    border-radius: 8px;
 }
 
 .Tab {
@@ -29,62 +31,73 @@ body {
     font-weight: 900;
 }
 
-.ResumeTab {
-    margin-inline: 40px 0;
+.FirstTab {
+    margin-inline: 50px 0;
 }
 
-.MusicTab {
+.NextTabs {
     margin-left: -40px;
+    z-index: 2;
+}
+
+.BottomTab {
+    z-index: 1;
 }
 
 .Paper {
     background-image: url("/assets/paperbg.jpg");
     background-size: cover;
-    padding-block: 1em;
+    padding: 50px 80px;
     box-shadow:  3px 3px 5px black;
-    margin: 0 20px;
+    margin: 0 40px;
+    min-height: 1200px;
+    text-shadow: 1px 1px 1px #eddbb9;
 }
 
 .TitleSection {
-    margin-block: 0 1em;
-    margin-inline: 1.5em 0;
-}
-
-.Name {
-    margin-block: 0;
-}
-
-.Job {
-    margin-block: 0;
+    text-align: center;
+    border-top: 1px solid;
+    padding-block: 12px;
 }
 
 .BodySection {
+    border-top: 1px solid;
+    padding: 8px;
+}
+
+.Title {
+    margin-block: 0;
+}
+
+.Subtitle {
+    margin-block: 2px 0;
+}
+
+.ResumeSection {
     display: flex;
     flex-direction: row;
-    border-top: 1px solid;
-    margin-inline: 1em;
 }
 
 .Header {
     min-width: 200px;
-    margin-block: .5em;
+    margin-block: 12px;
     border-right: 1px solid;
     flex: 0 0 200px;
     text-align: center;
 }
 
 .ItemCard {
-    margin-block: 1em 1em;
-    margin-inline: 1em 0;
+    margin-block: 16px;
+    margin-inline: 20px 0;
 }
 
 .Who {
-    font-size: 1.3em;
-    margin-block: 0 .1em;
+    font-size: 20px;
+    margin-block: 0 1px;
 }
 
 .What {
-    margin-block: 0 .2em;
+    margin-block: 0 3px;
 }
 
 .WhenAndWhere {
@@ -92,13 +105,13 @@ body {
 }
 
 .Description {
-    margin-block: .5em;
+    margin-block: 4px;
 }
 
 .RelatedCourses {
-    margin-block: 1em .5em;
+    margin-block: 16px 8px;
 }
 
 .RelatedCoursesList {
-    margin-block: .5em 0;
+    margin-block: 8px 0;
 }
